@@ -1,0 +1,41 @@
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+
+html * {
+    font-family: Ubuntu, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: Ubuntu;
+    justify-content: space-between;
+    border-style: solid;
+    padding: 20px;
+    background-color: #48cfba;
+    margin: -10px;
+    border-width: 10px;
+}
+
+#main {
+    border-style: solid;
+    width: auto;
+    height: 1200px;
+    background-color: #c9f0ea;
+    margin: -10px;
+    border-width: 10px;
+}
+
+footer {
+    display: flex;
+    width: auto;
+    height: 50px;
+    align-items: center;
+    background-color: #d3e8e5;
+    margin: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-top: none;
+}
+
+</style>
